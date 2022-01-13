@@ -1,0 +1,27 @@
+Para Trabajar con GIT necesitamos instalar:
+ 1. Instalar GIT (https://git-scm.com/)
+    - instalar git (siguiente)
+    - configurar git (habilitar o asignar el correo y usuario) :
+      > git config --global user.name "cristian"
+      > git config --global user.email "cchura.abc@gmail.com"
+ 2. Crear una cuenta (GITLAB, GITHUB, BITBUCKET)
+
+----------------------------------------------------------
+1.1 Clonar el repositorio 
+ > git clone https://github.com/DanielGeek/24_7_tienda.git
+
+1.2 iniciar con un nuevo repositorio
+ > git init
+
+2. agregar los archivos a la zona intermedia (index) 
+ > git add .
+3. agreagar del index al head 
+ > git commit -m "primer commit"
+
+4.1 Crear un repositorio en GITHUB
+
+4.2 asignar un repositorio remoto de (github) a nuestro repositorio local
+> git remote add origin https://github.com/cchura94/sis-academico-laravel.git
+
+5. subir los cambios al repositorio remoto
+> git push -u origin master
